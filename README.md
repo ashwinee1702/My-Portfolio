@@ -4,7 +4,7 @@ Features
 
 -Responsive and mobile-friendly design
 
--Hero section with my photo and intro
+-Section with my photo and intro
 
 -About section describing me and my interests
 
