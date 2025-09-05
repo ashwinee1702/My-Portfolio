@@ -1,6 +1,7 @@
 A personal portfolio website built using HTML, CSS, Bootstrap, and JavaScript
 
 Features
+
 -Responsive and mobile-friendly design
 
 -Hero section with my photo and intro
