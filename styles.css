@@ -9,7 +9,7 @@ body {
 
 .hero {
   height: 80vh;
-  background: linear-gradient(135deg, #ff758c, #ff7eb3); 
+  background: linear-gradient(135deg, #ff758c, #ff7eb3, #d291bc, #f3c1c6);
   color: white;
   display: flex;
   justify-content: center;
@@ -58,6 +58,7 @@ footer {
   font-size: 14px;
   padding: 20px;
 }
+
 
 
 
