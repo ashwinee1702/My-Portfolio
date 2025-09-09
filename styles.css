@@ -8,32 +8,33 @@ body {
 }
 
 .hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   height: 80vh;
   background: linear-gradient(135deg, #ff758c 0%, #ff7eb3 25%, #d291bc 50%, #f3c1c6 75%, #ffffff 100%);
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
   padding: 20px;
 }
 
-.hero img {
-  width: 300px;
-  max-width: 80vw;  
-  height: 300px;
-  max-height: 80vw; 
+.hero-image img {
+  width: 250px;
+  height: 250px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 50% 40% 60% 50% / 50% 60% 40% 50%; 
   border: 4px solid white;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-  margin-bottom: 20px;
+  margin: 10px;
   transition: transform 0.3s;
 }
 
-.hero img:hover {
+.hero-image img:hover {
   transform: scale(1.05);
+}
+
+.hero-text {
+  max-width: 500px;
+  margin: 10px;
 }
 
 .card {
@@ -58,6 +59,7 @@ footer {
   font-size: 14px;
   padding: 20px;
 }
+
 
 
 
