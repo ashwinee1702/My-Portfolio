@@ -21,7 +21,7 @@ body {
   width: 320px;
   height: 320px;
   object-fit: cover;
-  border-radius: 50% 55% 45% 50% / 50% 45% 55% 50%; 
+  border-radius: 50% 55% 45% 50% / 50% 45% 55% 50%;
   border: 4px solid white;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s;
@@ -33,7 +33,20 @@ body {
 
 .hero-text {
   max-width: 500px;
-  margin-top: 30px; 
+  margin-top: 30px;
+}
+
+.hero-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #ffffffcc; 
 }
 
 .card {
@@ -58,6 +71,7 @@ footer {
   font-size: 14px;
   padding: 20px;
 }
+
 
 
 
