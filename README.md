@@ -4,8 +4,6 @@ Features
 
 -Responsive and mobile-friendly design
 
--Section with my photo and intro
-
 -About section describing me and my interests
 
 -Projects section with links to GitHub repositories
