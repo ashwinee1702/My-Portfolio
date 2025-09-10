@@ -11,43 +11,39 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 80vh;
-  background: linear-gradient(135deg, #ff758c 0%, #ff7eb3 25%, #d291bc 50%, #f3c1c6 75%, #ffffff 100%);
+  min-height: 100vh;
+  background: linear-gradient(270deg, #ff758c, #ff7eb3, #6a82fb, #fc5c7d);
+  background-size: 800% 800%;
+  animation: gradientShift 15s ease infinite;
   padding: 60px 20px;
   text-align: center;
+  color: white;
 }
 
-.hero img {
-  width: 320px;
-  height: 320px;
-  object-fit: cover;
-  border-radius: 50% 55% 45% 50% / 50% 45% 55% 50%;
-  border: 4px solid white;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s;
-}
-
-.hero img:hover {
-  transform: scale(1.05);
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 .hero-text {
-  max-width: 500px;
-  margin-top: 30px;
+  max-width: 700px;
+  margin: auto;
 }
 
 .hero-title {
-  font-size: 2.2rem;
-  font-weight: 700;
+  font-size: 3rem;
+  font-weight: 800;
   margin-bottom: 15px;
+  text-shadow: 0px 0px 15px rgba(255,255,255,0.4);
 }
 
 .hero-subtitle {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 500;
-  margin-bottom: 20px;
-  color: #ffffffcc; 
+  color: rgba(255,255,255,0.9);
 }
+
 
 .card {
   transition: transform 0.3s, box-shadow 0.3s;
@@ -71,8 +67,3 @@ footer {
   font-size: 14px;
   padding: 20px;
 }
-
-
-
-
-
